@@ -3,8 +3,7 @@
 Copyright 2026 Nestor Wheelock - South City Computer
 
 ## Your WordPress Site Can Be Compromised With One Click
-
-We proved it. There are two paths, and both are trivially easy:
+There are two paths, and both are trivially easy:
 
 **Path 1 — A link to your own website.** An attacker sends the site administrator a URL that points to the site's own domain. It looks like a normal link to their own content. One click from a logged-in admin executes arbitrary JavaScript in their browser, steals their session cookie, and gives the attacker full administrative control of the site. No suspicious domains, no attachments, no malware downloads. Just a crafted URL to a site the victim trusts because it's theirs. *(CVE-2026-1404, Ultimate Member <= 2.11.1)*
 
